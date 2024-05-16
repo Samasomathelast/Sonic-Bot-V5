@@ -49,11 +49,11 @@ module.exports = {
       const winAmount = 2 * betAmount;
       userData.money += winAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🌿🎀𝑺𝑶𝑵𝑰𝑪🍀🏂  ───────────\  <(*✨∀✨*)ﾉ \ 🍀[ ${resultString} ]🍀\ 🎁 | 𝐁𝐢𝐞𝐧 𝐣𝐨𝐮𝐞 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞 🎀${winAmount}€🎀!`);
+      return message.reply(`🌿🎀𝙰𝚁𝙲𝙰𝙽𝙸𝙲🍀🏂  ───────────\ <(*✨∀✨*)ﾉ \🍀[ ${resultString} ]🍀\🎁 | 𝐁𝐢𝐞𝐧 𝐣𝐨𝐮𝐞 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞 🎀${winAmount}€🎀!`);
     } else {
       userData.money -= betAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🎀🌿𝑺𝑶𝑵𝑰𝑪🍀🏂  ───────────\ 🖕🏻(#°□°)🖕🏻 \ 🍁[ ${resultString} ]🍁\ 🤦🏼| 𝐓𝐮 𝐚𝐬 𝐩𝐞𝐫𝐝𝐮 🎀${betAmount}€🎀.`);
+      return message.reply(`🎀🌿𝙰𝚁𝙲𝙰𝙽𝙸𝙲🍀🏂  ───────────\🖕🏻(#°□°)🖕🏻 \🍁[ ${resultString} ]🍁\🤦🏼| 𝐓𝐮 𝐚𝐬 𝐩𝐞𝐫𝐝𝐮 🎀${betAmount}€🎀.`);
     }
   }
-}
+    }
