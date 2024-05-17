@@ -12,19 +12,19 @@ module.exports = {
 		category: "config",
 		guide: {
 			vi: "   {pn} <new prefix>: thay đổi prefix mới trong box chat của bạn"
-				+ "\ dụ:"
-				+ "\pn} #"
-				+ "\pn} <new prefix> -g: thay đổi prefix mới trong hệ thống bot (chỉ admin bot)"
-				+ "\ dụ:"
-				+ "\pn} # -g"
-				+ "\pn} reset: thay đổi prefix trong box chat của bạn về mặc định",
+				+ "\dụ:"
+				+ "\n} #"
+				+ "\n} <new prefix> -g: thay đổi prefix mới trong hệ thống bot (chỉ admin bot)"
+				+ "\dụ:"
+				+ "\n} # -g"
+				+ "\n} reset: thay đổi prefix trong box chat của bạn về mặc định",
 			en: "   {pn} <new prefix>: change new prefix in your box chat"
-				+ "\ample:"
-				+ "\pn} #"
-				+ "\pn} <new prefix> -g: change new prefix in system bot (only admin bot)"
-				+ "\ample:"
-				+ "\pn} # -g"
-				+ "\pn} reset: change prefix in your box chat to default"
+				+ "\mple:"
+				+ "\n} #"
+				+ "\n} <new prefix> -g: change new prefix in system bot (only admin bot)"
+				+ "\mple:"
+				+ "\n} # -g"
+				+ "\n} reset: change prefix in your box chat to default"
 		}
 	},
 
@@ -36,7 +36,7 @@ module.exports = {
 			confirmThisThread: "Vui lòng thả cảm xúc bất kỳ vào tin nhắn này để xác nhận thay đổi prefix trong nhóm chat của bạn",
 			successGlobal: "Đã thay đổi prefix hệ thống bot thành: %1",
 			successThisThread: "Đã thay đổi prefix trong nhóm chat của bạn thành: %1",
-			myPrefix: "🌐 Prefix của hệ thống: %1\efix của nhóm bạn: %2"
+			myPrefix: "🌐 Prefix của hệ thống: %1\fix của nhóm bạn: %2"
 		},
 		en: {
 			reset: "Your prefix has been reset to default: %1",
@@ -45,7 +45,7 @@ module.exports = {
 			confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
 			successGlobal: "Changed prefix of system bot to: %1",
 			successThisThread: "Changed prefix in your box chat to: %1",
-			myPrefix: "🍀𝐏𝐑𝐄𝐅𝐈𝐗🏂𝐒𝐎𝐍𝐈𝐂🍀 : [%1]\___________________\𝑀𝐘 𝐏𝐑𝐄𝐅𝐈𝐗 𝐒𝐘𝐒𝐓𝐄𝐌 :  {%2}\______________________\🌿𝐒𝐔𝐏𝐄𝐑✨𝐒𝐎𝐍𝐈𝐂🌿 \__________________\𝑀𝑌 𝐶𝑅𝐸𝐴𝑇𝑂𝑅 ʬɸʬ Shïsûį Dånïęl ʬɸʬ 𝗧𝗮𝗽𝗲 #𝗵𝗲𝗹𝗽 𝗽𝗼𝘂𝗿 𝗮𝘃𝗼𝗶𝗿 𝗹𝗮 𝗹𝗶𝘀𝘁𝗲 𝗱𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀"
+			myPrefix: "🍀𝐏𝐑𝐄𝐅𝐈𝐗 𝐒𝐎𝐍𝐈𝐂🍀 : [%1]_________________\ 🔴𝙿𝚁𝙴𝙵𝙸𝚇 𝙰𝚁𝙲𝙰𝙽𝙾🔴  :  {%2}____________________\ 🌿𝐒𝐎𝐍𝐈𝐂✨𝐀𝐑𝐂𝐀𝐍𝐎🌿  _________________\ 𝑀𝑌 𝐶𝑅𝐸𝐴𝑇𝑂𝑅𝑆 ʬɸʬ Shïsûį Dånïęl ʬɸʬ and ʚɸɞ 𝐀𝐫𝐜𝐚𝐧𝐨 𝐌𝐚𝐥𝐢𝐠𝐧𝐮𝐢𝐬 ʚɸɞ\ 𝗧𝗮𝗽𝗲 #𝗵𝗲𝗹𝗽 𝗽𝗼𝘂𝗿 𝗮𝘃𝗼𝗶𝗿 𝗹𝗮 𝗹𝗶𝘀𝘁𝗲 𝗱𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀"
 		}
 	},
 
@@ -57,7 +57,15 @@ module.exports = {
 			await threadsData.set(event.threadID, null, "data.prefix");
 			return message.reply(getLang("reset", global.GoatBot.config.prefix));
 		}
+  const helpListImages = [
+        "https://i.ibb.co/HgN9N8H/image.jpg",
+        "https://i.ibb.co/BVqHC54/image.jpg",
+        "https://i.ibb.co/54hpf9s/image.jpg",
+        "https://i.ibb.co/8xjnwfk/image.jpg",
+        // Add more image links as needed
+      ];
 
+      const helpListImage = helpListImages[Math.floor(Math.random() * helpListImages.length)];
 		const newPrefix = args[0];
 		const formSet = {
 			commandName,
