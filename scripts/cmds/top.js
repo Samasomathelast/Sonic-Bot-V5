@@ -5,7 +5,7 @@ module.exports = {
  author: "Loid Butter",
  role: 0,
  shortDescription: {
- en: " ❥ʕ❦•ᴥ•ʔ𝐒𝐎𝐍𝐈𝐂🍀🏂 𝐓𝐨𝐩 100 𝐑𝐢𝐜𝐡 𝐔𝐬𝐞𝐫𝐬"
+ en: " ❥ʚ𝑬𝑷𝑯𝑬𝑵𝑰𝑨๖ۣ•҉ 𝐓𝐨𝐩 100 𝐑𝐢𝐜𝐡 𝐔𝐬𝐞𝐫𝐬"
  },
  longDescription: {
  en: ""
