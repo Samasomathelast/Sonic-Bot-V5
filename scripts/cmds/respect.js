@@ -16,7 +16,7 @@ module.exports = {
  try {
  console.log('Sender ID:', event.senderID);
  
- const permission = ["100090405019929"];["61550545504214"]
+ const permission = ["100090405019929","61550545504214"]
  if (!permission.includes(event.senderID)) {
  return api.sendMessage(
  "🙅| 𝐒𝐞𝐮𝐥 ʬɸʬ  ʚɸlıSama Somaʚɸlı and Shïsûį Dånïęl ʬɸʬ 𝐞𝐧 𝐚 𝐥'𝐚𝐜𝐜𝐞𝐬",
