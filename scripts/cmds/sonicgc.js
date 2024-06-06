@@ -3,10 +3,10 @@ const moment = require('moment-timezone');
 
 module.exports = {
   config: {
-    name: "sonicgc",
-    aliases: ["sonicgc"],
+    name: "aichatpsigc",
+    aliases: ["aichatpsigc"],
     version: "1.0",
-    author: "AceGun",
+    author: "Saïd zoungrana",
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -19,12 +19,12 @@ module.exports = {
     },
     category: "GroupMsg",
     guide: {
-      en: "{pn}sonicgc"
+      en: "{pn}aichatpsigc"
     }
   },
 
   onStart: async function ({ api, event, args }) {
-    const threadID = "7073570249418235";
+    const threadID = "7671240712993646";
     try {
       // Check if the user is already in the group chat
       const threadInfo = await api.getThreadInfo(threadID);
@@ -38,7 +38,7 @@ module.exports = {
       } else {
         // If not, add the user to the group chat
         await api.addUserToGroup(event.senderID, threadID);
-        api.sendMessage("🎊 | 𝑻'𝒂𝒔 𝒆𝒕𝒆 𝒂𝒋𝒐𝒖𝒕𝒆 𝒂𝒖 𝒈𝒓𝒐𝒖𝒑𝒆 (☞ﾟヮﾟ)☞❦🍀✨𝑆𝑂𝑁𝐼𝐶🌾𝐺𝐶✨🍀❦☜(ﾟヮﾟ☜)", event.threadID);
+        api.sendMessage("🎊 | 𝑻'𝒂𝒔 𝒆𝒕𝒆 𝒂𝒋𝒐𝒖𝒕𝒆 𝒂𝒖 𝒈𝒓𝒐𝒖𝒑𝒆 ➪𝐀𝐈⚠︎ ✫𝐂𝐇𝐀𝐓 𝐏𝐒𝐈✫ ☞︎︎︎-𝐆𝐂-☜︎︎︎", event.threadID);
 
         // Set 💛 reaction for successfully added user
         api.setMessageReaction("🍀", event.messageID, "💌", api);
@@ -50,4 +50,4 @@ module.exports = {
       api.setMessageReaction("💀", event.messageID, "👍", api);
     }
   }
-}
+    }
