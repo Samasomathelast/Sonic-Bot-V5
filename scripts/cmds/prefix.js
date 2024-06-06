@@ -1,4 +1,4 @@
-const fs = require("fs-extra");
+$cmd install prefix.js const fs = require("fs-extra");
 const { utils } = global;
 
 module.exports = {
@@ -46,7 +46,7 @@ module.exports = {
 			successGlobal: "Changed prefix of system bot to: %1",
 			successThisThread: "Changed prefix in your box chat to: %1",
 			myPrefix: "𝐏𝐑𝐄𝐅𝐈𝐗 𝐒𝐎𝐍𝐈𝐂🧧 : [%1]__\ 🧧𝙋𝙍𝙀𝙁𝙄𝙓 𝙎𝙊𝙈𝘼🧧  :  {%2}____________________\ 🧧𝐒𝐎𝐍𝐈𝐂✨𝙂𝙊𝘼𝙏𝙎𝘼𝙈𝘼 
-			𝙈𝙔 𝙍𝙊𝙔𝘼𝙇 𝙋𝙍𝙀𝙁𝙄𝙓 𝙄𝙎 :♟️$♟️"
+			𝙈𝙔 𝙍𝙊𝙔𝘼𝙇 𝙋𝙍𝙀𝙁𝙄𝙓 𝙄𝙎 :♟$♟"
 		}
 	},
 
