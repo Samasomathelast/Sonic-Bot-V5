@@ -2,7 +2,7 @@ module.exports = {
     config: {
         name: "ok",
         version: "1.0",
-        author: "ʬɸʬ Shïsûį Dånïęl ʬɸʬ",
+        author: "𝐒𝐀𝐌𝐀 𝐒𝐎𝐌𝐀",
         countDown: 5,
         role: 0,
         shortDescription: "sarcasm",
@@ -15,6 +15,6 @@ module.exports = {
         message,
         getLang
     }) {
-        if (event.body && event.body.toLowerCase() == "ok") return message.reply("𝐽'𝑑𝑜𝑖𝑠 𝑎𝑣𝑜𝑢𝑒𝑟😶 que suis plus tot bg🎀");
+        if (event.body && event.body.toLowerCase() == "ok") return message.reply("𝐎𝐍𝐓 𝐄𝐒𝐓 𝐃'𝐂𝐂 𝐐𝐔𝐄 𝐉 𝐒𝐔𝐈𝐒 𝐂𝐎𝐎𝐋 𝐂𝐎𝐌𝐌𝐄 𝐁𝐎𝐓");
     }
 }
