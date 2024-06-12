@@ -1,4 +1,4 @@
-$cmd install prefix.js const fs = require("fs-extra");
+const fs = require("fs-extra");
 const { utils } = global;
 
 module.exports = {
@@ -12,19 +12,19 @@ module.exports = {
 		category: "config",
 		guide: {
 			vi: "   {pn} <new prefix>: thay đổi prefix mới trong box chat của bạn"
-				+ "\dụ:"
-				+ "\n} #"
-				+ "\n} <new prefix> -g: thay đổi prefix mới trong hệ thống bot (chỉ admin bot)"
-				+ "\dụ:"
-				+ "\n} # -g"
-				+ "\n} reset: thay đổi prefix trong box chat của bạn về mặc định",
+				+ "\  Ví dụ:"
+				+ "\   {pn} #"
+				+ "\   {pn} <new prefix> -g: thay đổi prefix mới trong hệ thống bot (chỉ admin bot)"
+				+ "\  Ví dụ:"
+				+ "\   {pn} # -g"
+				+ "\   {pn} reset: thay đổi prefix trong box chat của bạn về mặc định",
 			en: "   {pn} <new prefix>: change new prefix in your box chat"
-				+ "\mple:"
-				+ "\n} #"
-				+ "\n} <new prefix> -g: change new prefix in system bot (only admin bot)"
-				+ "\mple:"
-				+ "\n} # -g"
-				+ "\n} reset: change prefix in your box chat to default"
+				+ "\  Example:"
+				+ "\   {pn} #"
+				+ "\   {pn} <new prefix> -g: change new prefix in system bot (only admin bot)"
+				+ "\  Example:"
+				+ "\   {pn} # -g"
+				+ "\   {pn} reset: change prefix in your box chat to default"
 		}
 	},
 
@@ -36,7 +36,7 @@ module.exports = {
 			confirmThisThread: "Vui lòng thả cảm xúc bất kỳ vào tin nhắn này để xác nhận thay đổi prefix trong nhóm chat của bạn",
 			successGlobal: "Đã thay đổi prefix hệ thống bot thành: %1",
 			successThisThread: "Đã thay đổi prefix trong nhóm chat của bạn thành: %1",
-			myPrefix: "🌐 Prefix của hệ thống: %1\fix của nhóm bạn: %2"
+			myPrefix: "🌐 Prefix của hệ thống: %1\? Prefix của nhóm bạn: %2"
 		},
 		en: {
 			reset: "Your prefix has been reset to default: %1",
@@ -45,8 +45,8 @@ module.exports = {
 			confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
 			successGlobal: "Changed prefix of system bot to: %1",
 			successThisThread: "Changed prefix in your box chat to: %1",
-			myPrefix: "𝐏𝐑𝐄𝐅𝐈𝐗 𝐒𝐎𝐍𝐈𝐂🧧 : [%1]__\ 🧧𝙋𝙍𝙀𝙁𝙄𝙓 𝙎𝙊𝙈𝘼🧧  :  {%2}____________________\ 🧧𝐒𝐎𝐍𝐈𝐂✨𝙂𝙊𝘼𝙏𝙎𝘼𝙈𝘼 
-			𝙈𝙔 𝙍𝙊𝙔𝘼𝙇 𝙋𝙍𝙀𝙁𝙄𝙓 𝙄𝙎 :♟$♟"
+			myPrefix: "🥷ʚɸlıSama Somaʚɸlı🥷  \━━━━━━━❪$❫━━━━━━━\
+         𝐌𝐘 𝐏𝐑𝐄𝐅𝐈𝐗 ➪  👑%1👑\n ━━━━━━━❪$❫━━━━━━━\n ➪ TÅPĒ $HELP PØÙR TĘ SÊRVĮR \n\n━━━━━━━❪$❫━━━━━━━"
 		}
 	},
 
@@ -58,15 +58,7 @@ module.exports = {
 			await threadsData.set(event.threadID, null, "data.prefix");
 			return message.reply(getLang("reset", global.GoatBot.config.prefix));
 		}
-  const helpListImages = [
-        "https://i.ibb.co/HgN9N8H/image.jpg",
-        "https://i.ibb.co/BVqHC54/image.jpg",
-        "https://i.ibb.co/54hpf9s/image.jpg",
-        "https://i.ibb.co/8xjnwfk/image.jpg",
-        // Add more image links as needed
-      ];
 
-      const helpListImage = helpListImages[Math.floor(Math.random() * helpListImages.length)];
 		const newPrefix = args[0];
 		const formSet = {
 			commandName,
