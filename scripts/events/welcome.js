@@ -26,10 +26,10 @@ module.exports = {
 			session2: "noon",
 			session3: "afternoon",
 			session4: "evening",
-			welcomeMessage: "Thank you for inviting me to the group!\nBot prefix: %1\nTo view the list of commands, please enter: %1help",
+			welcomeMessage: "𝑀𝑒𝑟𝑐𝑖 𝑝𝑜𝑢𝑟 𝑙'𝑎𝑗𝑜𝑢𝑡 𝑎𝑢 𝑔𝑟𝑝 𝑒𝑐𝑟𝑖𝑡 𝑠𝑜𝑛𝑖𝑐 𝑠𝑖 𝑡𝑢 𝑣𝑒𝑢𝑥 𝑚𝑒 𝑝𝑜𝑠𝑒𝑟 𝑢𝑛𝑒 𝑞𝑢𝑒𝑠𝑡𝑖𝑜𝑛!\nBot prefix: %1\n𝑝𝑜𝑢𝑟 𝑣𝑜𝑖𝑟 𝑙𝑒𝑠 𝑐𝑚𝑑, 𝑒𝑐𝑟𝑖𝑡: %1help",
 			multiple1: "you",
 			multiple2: "you guys",
-			defaultWelcomeMessage: `Hello {userName}.\nWelcome {multiple} to the chat group: {boxName}\nHave a nice {session} 😊`
+			defaultWelcomeMessage: `𝑌𝑂 {userName}.\n𝐵𝐼𝐸𝑁𝑉𝐸𝑁𝑈𝐸 {multiple} 𝐷𝐴𝑁𝑆 𝐿𝐴 𝐷𝐸𝑀𝐸𝑈𝑅 𝐷𝐸 𝑆𝑂𝑁𝐼𝐶: {boxName}\n𝑎𝑚𝑢𝑠𝑒 𝑡𝑜𝑖 𝑏𝑖𝑒𝑛 {session} 😊`
 		}
 	},
 
