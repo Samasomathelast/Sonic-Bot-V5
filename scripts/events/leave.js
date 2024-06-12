@@ -1,4 +1,4 @@
-const { getTime, drive } = global.utils;
+𝑖const { getTime, drive } = global.utils;
 
 module.exports = {
 	config: {
@@ -25,7 +25,7 @@ module.exports = {
 			session4: "evening",
 			leaveType1: "left",
 			leaveType2: "was kicked from",
-			defaultLeaveMessage: "{userName} {type} the group"
+			defaultLeaveMessage: "𝐶𝐴 𝑀'𝐸𝑇𝑂𝑁𝑁𝐸 𝑃𝐴𝑆 𝑄𝑈𝐸{userName}𝑆𝑂𝐼𝑇 𝑃𝐴𝑅𝑇𝐼𝑅 𝐶𝐸 𝑃𝐴𝑆 𝑇𝑂𝑈𝑆 𝐿𝐸 𝑀𝑂𝑁𝐷𝐸 𝑄𝑈𝐼 𝐸𝑆𝑇 𝐴𝑆𝑆𝐸𝑅 𝐼𝑁𝑇𝐸𝐿𝐿𝐼𝐺𝐸𝑁𝑇 𝑃𝑂𝑈𝑅 𝑅𝐸𝑆𝑇𝐸𝑍 𝐷𝐴𝑁𝑆 𝐶𝐸  {type} 𝐺𝑅𝑂𝑈𝑃𝐸"
 		}
 	},
 
