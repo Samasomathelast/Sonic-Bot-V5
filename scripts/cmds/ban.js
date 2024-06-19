@@ -59,7 +59,8 @@ module.exports = {
 			noData: "📑 | There are no banned members in this box chat",
 			listBanned: "📑 | List of banned members in this box chat (page %1/%2)",
 			content: "%1/ %2 (%3)\nReason: %4\nBan time: %5\n\n",
-			needAdminToKick: "⚠️ | Member %1 (%2) has been banned from box chat, but the bot does not have administrator permission to kick this member, please grant administrator permission to the bot to kick this member",
+			needAdminToKick: "⚠️ | Member %1 (%2) has been banned from box chat, but the bot does not have administrator permission to kick this member, please grant administrator permission to the bot to kick this member"
+		61550545504214",
 			bannedKick: "⚠️ | %1 has been banned from box chat before!\nUID: %2\nReason: %3\nBan time: %4\n\nBot has automatically kicked this member"
 		}
 	},
