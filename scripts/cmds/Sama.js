@@ -1,4 +1,4 @@
-const axios = require('axios');
+ifconst axios = require('axios');
 
 async function fetchFromAI(url, params) {
  try {
@@ -18,7 +18,7 @@ async function getAIResponse(input, userId, messageID) {
  { url: 'https://ai-chat-gpt-4-lite.onrender.com/api/hercai', params: { question: input } }
  ];
 
- let response = "━━━━━━━━━━━━━ \n ✰𝐬𝐚𝐥𝐮𝐭 𝐦𝐨𝐢 𝐜'𝐞𝐬𝐭 SOMA BOT 𝐭𝐮 𝐩𝐞𝐮𝐭 𝐦𝐞 𝐩𝐨𝐬𝐞𝐫 𝐭𝐚 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧 ⚠︎\n━━━━━━━━━━━━━";
+ let response = "━━━━━━━━━━━━━ \n ✰YO ICI SOMA BOT POUR TE SERVIR ⚠︎\n━━━━━━━━━━━━━";
  let currentIndex = 0;
 
  for (let i = 0; i < services.length; i++) {
@@ -36,7 +36,7 @@ async function getAIResponse(input, userId, messageID) {
 
 module.exports = {
  config: {
- name: 'ai',
+ name: 'sama',
  author: 'Arn',
  role: 0,
  category: 'ai',
@@ -76,7 +76,7 @@ const fonts = {
  if (messageContent.startsWith("ai")) {
  const input = messageContent.replace(/^ai\s*/, "").trim();
  const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
- message.reply(`༆𝐌𝐚𝐝𝐚𝐫𝐚 𝐮𝐜𝐡𝐢𝐡𝐚\n━━━━━━━━━━━━━\n${response}`, messageID);
+ message.reply(`༆SOMA RÉPONSE\n━━━━━━━━━━━━━\n${response}`, messageID);
  }
  }
 };
