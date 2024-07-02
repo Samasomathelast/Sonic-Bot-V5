@@ -94,7 +94,7 @@ handlerEvents.threadBanned=This group has been banned from using the bot\n» Rea
 handlerEvents.onlyAdminBox=This group is currently enabled only group administrators can use the bot
 handlerEvents.onlyAdminBot=👻 | 𝑺𝒆𝒖𝒍 la family soma 𝒖𝒕𝒊𝒍𝒊𝒔𝒆 𝒍𝒆 𝑩𝒐𝒕\n________________\n❥❦SOMA๖ۣ•҉
 handlerEvents.commandNotFound=📝| 𝐂𝐞𝐭𝐭𝐞 𝐜𝐦𝐝 𝐧'𝐞𝐱𝐢𝐬𝐭𝐞 𝐩𝐚𝐬 𝐜𝐨𝐧𝐬𝐮𝐥𝐭𝐞 𝐥𝐚 𝐜𝐦𝐝 #help\n✎﹏﹏﹏﹏﹏﹏﹏﹏﹏\n❥❦SOMA๖ۣ•҉
-handlerEvents.commandNotFound2=👑𝙼𝚈 𝙲𝚁𝙴𝙰𝚃𝙾𝚁𝚂👑 \n______ \•✧•𝐒𝐀𝐌𝐀 𝐒𝐎𝐌𝐀 •─────✧─────•𝐋𝐈𝐍𝐊◑━━━━━▣━━━━━◐https://www.facebook.com/profile.php?id=61550545504214◑ ━━━━━▣━━━━━ ◐\n❥❦SOMA๖ۣ•҉ 
+handlerEvents.commandNotFound2=👑𝙼𝚈 𝙲𝚁𝙴𝙰𝚃𝙾𝚁𝚂👑 \n______ \•✧•𝐒𝐀𝐌𝐀 𝐒𝐎𝐌𝐀 •─────✧─────•𝐋𝐈𝐍𝐊-FCB!◑━━━━━▣━━━━━◐https://www.facebook.com/profile.php?id=61550545504214◑ ━━━━━▣━━━━━ ◐\n❥❦SOMA๖ۣ•҉ 
 handlerEvents.commandSyntaxError=The command you are using is wrong syntax, please type %1help %2 to see the details of how to use this command
 handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1" \n__________________ \n ❥❦SOMA๖ۣ•҉
 handlerEvents.onlyAdminToUseOnReply=❌ | Only group administrators can use the reply function of the command "%1"
